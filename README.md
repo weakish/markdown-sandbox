@@ -30,4 +30,4 @@ This is section B.
 
 #### child section
 
-This is child section of section B.
+This is child section of section B. In GitHub, ID is [child-section-1](#child-section-1)
