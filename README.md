@@ -31,3 +31,7 @@ This is section B.
 #### child section
 
 This is child section of section B. In GitHub, ID is [child-section-1](#child-section-1)
+
+## `CODE_IN_HEADER`
+
+The header of this section is `CODE_IN_HEADER`. How about the id for this?
