@@ -32,6 +32,32 @@ This is section B.
 
 This is child section of section B. In GitHub, ID is [child-section-1](#child-section-1)
 
+## Footnotes
+
+Sample from [pandoc documentation](https://pandoc.org/MANUAL.html#extension-footnotes):
+
+Here is a footnote reference,[^1] and another.[^longnote]
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+    Subsequent paragraphs are indented to show that they
+belong to the previous footnote.
+
+        { some.code }
+
+    The whole paragraph can be indented, or just the first
+    line.  In this way, multi-paragraph footnotes work like
+    multi-paragraph list items.
+
+This paragraph won't be part of the note, because it
+isn't indented.
+
+Here is an inline note.^[Inline notes are easier to write, since
+you don't have to pick an identifier and move down to type the
+note.]
+
 ## `CODE_IN_HEADER`
 
 The header of this section is `CODE_IN_HEADER`. How about the id for this?
